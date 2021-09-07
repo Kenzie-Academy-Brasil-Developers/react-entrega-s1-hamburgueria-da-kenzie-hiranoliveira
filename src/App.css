@@ -1,0 +1,95 @@
+html {
+  scroll-behavior: smooth;
+}
+
+.App {
+  background-color: rgb(225, 238, 48);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+header {
+  font-size: 50px;
+  font-weight: bold;
+}
+
+header {
+  margin: 50px 0;
+  width: 100%;
+}
+
+div {
+  margin: 10px 0;
+}
+
+li {
+  list-style: none;
+}
+
+.divInput {
+  width: 100%;
+}
+
+.chosenProducts {
+  width: 100%;
+}
+
+.searchButton {
+  height: 30px;
+  border-top: 1px solid #f79797;
+  background: #c73b3b;
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(#a11414),
+    to(#c73b3b)
+  );
+  background: -webkit-linear-gradient(top, #a11414, #c73b3b);
+  background: -moz-linear-gradient(top, #a11414, #c73b3b);
+  background: -ms-linear-gradient(top, #a11414, #c73b3b);
+  background: -o-linear-gradient(top, #a11414, #c73b3b);
+  padding: 5px 10px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  border-radius: 8px;
+  -webkit-box-shadow: rgba(0, 0, 0, 1) 0 1px 0;
+  -moz-box-shadow: rgba(0, 0, 0, 1) 0 1px 0;
+  box-shadow: rgba(0, 0, 0, 1) 0 1px 0;
+  text-shadow: rgba(0, 0, 0, 0.4) 0 1px 0;
+  color: white;
+  font-size: 14px;
+  font-family: Georgia, serif;
+  text-decoration: none;
+  vertical-align: middle;
+}
+.searchButton:hover {
+  border-top-color: #c42f2f;
+  background: #c42f2f;
+  color: #000000;
+}
+.searchButton:active {
+  border-top-color: #5c1b1b;
+  background: #5c1b1b;
+}
+
+ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+input {
+  height: 23px;
+}
+
+@media only screen and (min-width: 800px) {
+  .App {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+}
